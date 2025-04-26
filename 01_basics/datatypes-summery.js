@@ -41,3 +41,31 @@ const myFunction = function(){
 }
 
 console.log(typeof anotherId);
+
+
+//++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+//stack  (promitive )
+//heap (non-primitive)
+
+
+let myInstagramname = "kuldeepghante"
+
+let anothername = kuldeepghante
+anothername = "cooldeep" 
+
+console.log(myInstagramname);
+console.log(anothername);
+
+let userone = {
+    email:"user@google.com",
+    upi:"user@ybl",
+}
+
+let userTwo = userone
+
+userTwo.email = "kuldeep@google.com"
+
+console.log(userone.email);
+console.log(userTwo.email);
