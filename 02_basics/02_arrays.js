@@ -11,7 +11,7 @@ const dc_heros = ["superman", "flash", "batman"]
 
 const all_new_heros = [...marvel_heros, ...dc_heros]
 
-// console.log(all_new_heros);
+// console.log(all_new_heros);  //\ dsiplayed spred out value
 
 const another_array = [1, 2, 3, [4, 5, 6], 7, [6, 7, [4, 5]]]
 
@@ -21,12 +21,12 @@ console.log(real_another_array);
 
 
 console.log(Array.isArray("Kuldeep"))
-console.log(Array.from("Kuldeep"))
-console.log(Array.from({name: "kuldeep"})) // interesting
+console.log(Array.from("Kuldeep")) //convert string to array
+console.log(Array.from({name: "kuldeep"})) // interesting 
 
 let score1 = 100
 let score2 = 200
 let score3 = 300
 let score4 = 400
 
-console.log(Array.of(score1, score2, score3));
+console.log(Array.of(score1, score2, score3, score4));
