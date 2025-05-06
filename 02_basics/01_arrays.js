@@ -8,14 +8,14 @@ const myArr2 = new Array(1, 2, 3, 4)
 
 // Array methods
 
-// myArr.push(6)
+// myArr.push(6) 
 // myArr.push(7)
-// myArr.pop()
+// myArr.pop()            // pop removes the last element
 
-// myArr.unshift(9)
-// myArr.shift()
+// myArr.unshift(9) 
+// myArr.shift()          // shift removes the first element
 
-// console.log(myArr.includes(9));
+// console.log(myArr.includes(9)); 
 // console.log(myArr.indexOf(3));
 
 // const newArr = myArr.join()
